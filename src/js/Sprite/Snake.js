@@ -8,10 +8,14 @@ class Snake extends Sprite {
      * @param {number} x position x
      * @param {number} y position y
      */
-    constructor(game, x, y) {
+    constructor(
+        game,
+        x = 9 * Config.Box,
+        y = 10 * Config.Box
+    ) {
         super(game);
-        this.x = x === undefined ? 9 * Config.Box : x;
-        this.y = y === undefined ? 10 * Config.Box : y;
+        this.x = x;
+        this.y = y;
     }
 }
 
