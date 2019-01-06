@@ -1,4 +1,4 @@
-# Canvas Snake-ES6
+# Canvas Snake ES6
 The Snake game, created using es6, webpack4.
 
 ## Installation
