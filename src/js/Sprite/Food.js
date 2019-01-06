@@ -16,7 +16,7 @@ class Food extends Sprite {
     ) {
         super(game, x, y);
         this.image = new Image();
-        this.image.src = '../assets/img/food.png';
+        this.image.src = `${Config.Prefix}/img/food.png`;
         this.game.drawImage(this.image, this.x, this.y);
     }
 }
